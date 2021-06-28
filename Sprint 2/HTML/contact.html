@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Auto-Generated meta by VSCode -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title on Browser -->
+    <title>Contact Me - The Five Minute Mushroom Farm</title>
+    <!-- Google Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <!-- CSS Reference -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- My Website Header -->
+    <header><img src="images/mushIcon.JPG" id="headerIcon"> THE FIVE MINUTE MUSHROOM FARM </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="">Home</a>
+        <a href="">The Farm</a>
+        <a href="">The Kitchen</a>
+        <a href="">Contact Me</a>
+    </nav>
+    <!-- Main Content: the contact form container and box -->
+    <main id="contactForm" class="contactForm">
+
+        <!-- The Form Box -->
+        <form method="post" class="formBody">
+            <h1>Get in touch!</h1>
+            <p>Hey! Got a question or comment about my mushroom farm or dishes? Leave a message; I'd love to hear from
+                you.&#x263A;</p>
+            <div class="formGroup">
+                <!-- Form: Name -->
+                <div>
+                    <!-- invalid class when error -->
+                    <input type="text" name="name" placeholder="{Name}" class="invalid">
+                    <!-- errorHint with two classes, errorHint & hidden -->
+                    <!-- hidden class to "hide it" unless there's an error-->
+                    <div class="errorHint hidden">"Please enter your name"</div>
+                </div>
+                <!-- Form: Email -->
+                <div>
+                    <input type="email" name="email" placeholder="{Email}" class="invalid">
+                    <div class="errorHint hidden">"Please enter your email"</div>
+                </div>
+                <!-- Form: Message (using textarea) -->
+                <div>
+                    <textarea name="message" placeholder="{Message}" rows="14" class="invalid"></textarea>
+                    <div class="errorHint hidden">"Please enter your message"</div>
+                </div>
+                <!-- Form: Submit Button -->
+                <div>
+                    <button type="submit">SEND MESSAGE</button>
+                </div>
+            </div>
+        </form>
+        <div class="submitThanks hidden">THANK YOU FOR CONTACTING ME!</div>
+    </main>
+
+    <!-- JavaScript Reference -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
