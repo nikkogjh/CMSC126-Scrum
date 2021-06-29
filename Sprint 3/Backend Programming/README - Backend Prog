@@ -1,0 +1,12 @@
+CONTAINS ALL BACKEND DOCUMENTS (INCLUDING THE DATABASE DOCUMENTS)
+
+Noteworthy documents related to backend:
+1) HTML files, backend integration and block templates (see blog/templates)
+2) Static Folder for JS, CSS, and image
+3) views.py contains the functions to render the webpages
+4) urls.py contains the urlpatterns that calls the functions in views.py
+
+Why Django?
+1) Python syntax is easier
+2) Recommended for beginners
+3) Easier front-end integration
