@@ -1,0 +1,8 @@
+DATABASE Includes the SQLITE file and the app folder (named 'blog')
+
+Documents that are related to the database:
+1) blog/models.py - contains the Feedback class
+2) blog/admin.py - set up the Feedback filter and display when accessing the database via localhost:PORT/admin
+3) blog/views.py - contains the functions for rendering the Contact US page and the retrieving of user input
+4) static/blog/script.js - javascript code was modified; added ajax code for submission of the form 
+5) contact.html - modified the contact HTML by adding a csrf_token to prevent token-related errors
